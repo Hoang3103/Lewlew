@@ -1,12 +1,14 @@
 var messages = [
     "Em chắc chưa ?",
-    "Thật sự là sẽ k đi à ?",
+    "Không từ chối được đâu ",
     "Nghĩ thật kĩ nha",
-    "Sẽ vui lắm á ",
+    "Chọn lại đi ",
     "Không được đâu đừng cố",
     "Suy nghĩ lại đi",
     "Em nhầm nút đúng k ?",
     "Nào đừng làm vậy chứ",
+    "Nghĩ lại đi",
+    "Đừng hối hận đấy",
 ];
 var button = document.getElementById('yes-button');
 var alertBox = document.getElementById("myAlert");
