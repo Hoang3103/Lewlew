@@ -5,6 +5,7 @@ var messages = [
     "Chọn lại đi ",
     "Không được đâu đừng cố",
     "Suy nghĩ lại đi",
+    "Chọn sai rồi",
     "Em nhầm nút đúng k ?",
     "Cho chọn lại đấy",
     
