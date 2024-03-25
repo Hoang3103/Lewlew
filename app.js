@@ -6,7 +6,7 @@ var messages = [
     "Không được đâu đừng cố",
     "Suy nghĩ lại đi",
     "Em nhầm nút đúng k ?",
-    "Nghĩ lại đi",
+    "Cho chọn lại đấy",
     
 ];
 var button = document.getElementById('yes-button');
