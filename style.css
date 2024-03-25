@@ -73,6 +73,9 @@ color: aliceblue;
     font-size: 100px;
     /* border: 5px solid black; */
     width: 30%;
+    margin-top: auto;
+    justify-content: center;
+    height: fit-content;
     font-family: serif;
     font-weight: bold;
     align-items: center;
