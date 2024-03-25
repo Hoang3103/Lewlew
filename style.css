@@ -1,0 +1,170 @@
+
+body{
+    background: rgb(255,151,180);
+    background: linear-gradient(90deg, rgba(255,151,180,0.9640231092436975) 4%, rgba(255,151,169,0.8827906162464986) 28%, rgba(255,151,168,0.8379726890756303) 46%, rgba(255,151,172,0.711922268907563) 70%, rgba(255,151,174,0.6811099439775911) 91%);
+}
+
+.alert {
+    width: 1000px;
+    height: auto;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: #ff594d; 
+    color: white;
+    font-size: 85px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    display: none;
+    justify-items: center;
+    font-weight: bold;
+    transition: opacity 0.5s ease-in-out;
+    overflow-wrap: break-word;
+}
+.alert span{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.close {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+    margin-left: 42%;
+    top: 5px;
+    right: 10px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.close:active{
+background-color: #ff5da8c4;
+color: aliceblue;
+}
+.alert.show {
+    opacity: 1; 
+}
+.s-container{
+    /* border: 10px solid black; */
+    width: 70%;
+    height: 100vh;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+.head  {
+    width: 100%;
+    height: auto;
+    /* border: 5px solid yellow; */
+    display: flex;
+}
+.mes{
+    font-size: 100px;
+    /* border: 5px solid black; */
+    width: 30%;
+    font-family: serif;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+}
+.vid{
+    justify-content: center;
+    display: flex;
+    width: 40%;
+    height: auto;
+    /* border: 5px solid red; */
+    overflow: hidden;
+}
+.vid img{
+    width: 300%;
+    height: auto;
+}
+.author{
+    /* border: 5px solid red; */
+    width: 30%;
+    height: auto;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.des{
+    /* border: 5px solid blue; */
+    justify-content: center;
+    display: flex;
+    height: auto;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.buttons{
+    color: beige;
+    width: 70%;
+    height: auto;
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+button{
+    width: 300px;
+    height: 130px;
+    color: antiquewhite;
+    font-size: 80px;
+    border-radius: 40px;
+    border: 7px solid black;
+}
+.but-no{
+ /* border: 5px solid red;   */
+    width: 500px;
+    height: 300px;
+    position: absolute;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 100em;
+}
+.but-yes{
+     /* border: 5px solid red;  */
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100em;
+}
+.yes{
+    background-color: rgba(35, 201, 57, 0.945);
+}
+.no{
+    background-color: red;
+}
+
+button:hover{
+    border: 5px solid rgba(65, 65, 65, 0.884);
+    box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.897);
+}
+button:active {
+    background-color: rgb(5, 129, 26);
+}
+.text{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+}
